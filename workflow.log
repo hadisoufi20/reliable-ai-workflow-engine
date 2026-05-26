@@ -11,3 +11,6 @@
 [2026-05-26 13:02:10] ID: INV-003 | Transition: RISK_ANALYSIS -> APPROVED | Decision: AUTO_APPROVED | Reason: Risk level acceptable
 [2026-05-26 13:02:10] ID: INV-002 | Transition: RISK_ANALYSIS -> ESCALATED | Decision: MANUAL_REVIEW | Reason: Risk threshold exceeded
 [2026-05-26 13:02:10] ID:  | Transition: VALIDATING -> ESCALATED | Decision: REJECTED | Reason: Validation Errors: MISSING_INVOICE_ID, MISSING_VENDOR, INVALID_AMOUNT
+[2026-05-26 14:32:48] ID: INV-003 | Transition: RISK_ANALYSIS -> APPROVED | Decision: AUTO_APPROVED | Reason: Risk level acceptable
+[2026-05-26 14:32:48] ID: INV-002 | Transition: RISK_ANALYSIS -> ESCALATED | Decision: MANUAL_REVIEW | Reason: Risk threshold exceeded
+[2026-05-26 14:32:48] ID:  | Transition: VALIDATING -> ESCALATED | Decision: REJECTED | Reason: Validation Errors: MISSING_INVOICE_ID, MISSING_VENDOR, INVALID_AMOUNT
