@@ -25,3 +25,37 @@ To build a reliable, rule-based autonomous workflow system that ensures auditabi
 ## Design Tradeoffs
 - **Determinism vs. Flexibility:** Prioritizes predictability over LLM-driven unpredictability.
 - **Observability vs. Overhead:** Employs a lightweight asynchronous event stream, avoiding the complexity of external message brokers while maintaining log integrity.
+## Quick Start
+
+```bash
+git clone https://github.com/hadisoufi20/reliable-ai-workflow-engine.git
+cd reliable-ai-workflow-engine
+pip install -r requirements.txt
+
+# run all three simulation scenarios (clean / suspicious / bad)
+python main.py
+
+# run the test suite
+pytest tests/
+```
+
+## Repository Layout
+
+```
+core/           deterministic rules engine, state machine, validator
+agents/         agentic escalation layer (bounded, advisory)
+observability/  asynchronous event stream + audit logger
+simulation/     sample invoices: clean, suspicious, bad
+tests/          state-machine and workflow tests
+```
+
+## Related
+
+- **Architecture overview:** [hadisoufi20.github.io](https://hadisoufi20.github.io/)
+- **Research — four SSRN working papers on agentic trading systems:** [ssrn.com/author=13197688](https://ssrn.com/author=13197688)
+- **ORCID:** [0009-0009-4656-5983](https://orcid.org/0009-0009-4656-5983)
+- **Author:** Hadi Soufi — AI systems architect, Founder of ZVAKTHOR
+
+## License
+
+No reuse license is granted. The code is published for review and demonstration.
