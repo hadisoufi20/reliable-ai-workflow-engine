@@ -1,0 +1,2 @@
+# No third-party dependencies.
+# This project uses the Python standard library only (json, os, queue, sys, threading, time, datetime).
