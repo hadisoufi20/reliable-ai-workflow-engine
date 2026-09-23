@@ -27,17 +27,24 @@ To build a reliable, rule-based autonomous workflow system that ensures auditabi
 - **Observability vs. Overhead:** Employs a lightweight asynchronous event stream, avoiding the complexity of external message brokers while maintaining log integrity.
 ## Quick Start
 
+No third-party dependencies — the standard library only.
+
 ```bash
 git clone https://github.com/hadisoufi20/reliable-ai-workflow-engine.git
 cd reliable-ai-workflow-engine
-pip install -r requirements.txt
 
 # run all three simulation scenarios (clean / suspicious / bad)
-python main.py
+python3 main.py
 
-# run the test suite
+# run the tests (no extra install needed)
+python3 tests/test_workflow.py && python3 tests/test_validator.py
+
+# or, if pytest is installed:
 pytest tests/
 ```
+
+Verified behaviour of `python3 main.py`: the clean invoice is auto-approved, the suspicious one is escalated
+with an agent recommendation, and the malformed one is rejected with explicit validation errors.
 
 ## Repository Layout
 
