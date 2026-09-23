@@ -25,6 +25,11 @@ To build a reliable, rule-based autonomous workflow system that ensures auditabi
 ## Design Tradeoffs
 - **Determinism vs. Flexibility:** Prioritizes predictability over LLM-driven unpredictability.
 - **Observability vs. Overhead:** Employs a lightweight asynchronous event stream, avoiding the complexity of external message brokers while maintaining log integrity.
+## Architecture and decisions
+
+- [`architecture.md`](architecture.md) — component and lifecycle views, decision rules, failure behaviour, known limitations.
+- [`docs/adr/`](docs/adr/) — architecture decision records (deterministic core, enforced transitions, event stream, dependency policy, validation order).
+
 ## Quick Start
 
 No third-party dependencies — the standard library only.
