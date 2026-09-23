@@ -65,4 +65,5 @@ tests/          state-machine and workflow tests
 
 ## License
 
-No reuse license is granted. The code is published for review and demonstration.
+Proprietary - all rights reserved. See [LICENSE](LICENSE). The code is published for review and
+demonstration; no reuse licence is granted.
