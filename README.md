@@ -1,5 +1,7 @@
 # reliable-ai-workflow-engine
 
+[![tests](https://github.com/hadisoufi20/reliable-ai-workflow-engine/actions/workflows/tests.yml/badge.svg)](https://github.com/hadisoufi20/reliable-ai-workflow-engine/actions/workflows/tests.yml)
+
 Inspired by deterministic system design principles explored in the NEXUS architecture research.
 
 ## Technical Philosophy
